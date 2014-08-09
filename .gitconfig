@@ -8,8 +8,6 @@
   autocrlf = input
 [alias]
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-  ls = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
   ll = log --stat --abbrev-commit #show what changed, and by how much
-  sc = shortlog -sn #show total commits for each person
 [color]
   ui = true
